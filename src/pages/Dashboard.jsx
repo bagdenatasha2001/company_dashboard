@@ -3,6 +3,11 @@ import Header from '../Components/Header/header'
 import Sideheader from '../Components/sideheade/Sideheader'
 import Kpi_Container from '../Components/KPI_Cards/Kpi_Container'
 import ChartContainer from '../Components/charts/ChartContainer'
+import IntershipTableContainer from '../Components/Tables/IntershipTableContainer'
+import Heatmap from '../Components/Heatmap/Heatmap'
+
+
+
 
 
 export default function Dashboard() {
@@ -21,7 +26,10 @@ export default function Dashboard() {
         
         <div className='border-b border-gray-300 mt-3'></div>
         <Kpi_Container/>
-       <ChartContainer/>
+        <ChartContainer/>
+        <Heatmap/>
+        <IntershipTableContainer/>
+       
        
       
 

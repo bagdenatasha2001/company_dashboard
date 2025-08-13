@@ -4,6 +4,8 @@ import Donut_2 from './Donut_2'
 import ChartHeader from './ChartHeader'
 
 export default function ChartContainer() {
+
+
   return (
     <>
     <div className='w-full flex h-[550px] justify-around p-3 space-x-5'>
@@ -14,7 +16,7 @@ export default function ChartContainer() {
            <ChartHeader
            title="Internship Lising Analytics"
            buttonText="More Information"
-           onButtonClick={() => console.log("First button clicked!")} />
+           onButtonClick={() => console.log("first button clicked!")} />
           </div>
 
           <div className='w-full items-center bg-[#FBFBFB]' >

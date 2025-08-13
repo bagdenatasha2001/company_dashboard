@@ -13,7 +13,7 @@ export default function Sideheader() {
         
         <div className='flex items-center mb-[20px] h-[60px] w-[90%] p-1'>
           <img src={logo2} alt="logo" className='w-[50px]' />
-          <span className='font-bold text-3xl text-[#006666] font-inter'>Go Grads</span>
+          <span className='font-bold text-2xl text-[#006666] font-inter'>Go Grads</span>
         </div>
 
        
