@@ -48,14 +48,14 @@ const values = [
 
 // Extracted color palette from the reference image
 const colorScale = [
-  "#e0f3f8", // very light aqua
-  "#c7e7e5", // pale teal
-  "#8ec3c8", // light-medium teal
-  "#62a7b4", // medium teal
-  "#4a90b2", // soft blue
-  "#357ca1", // medium blue
-  "#2b6f94", // dark blue
-  "#1f5c7f"  // deep navy-blue
+  "#e0f3f8", 
+  "#c7e7e5", 
+  "#8ec3c8", 
+  "#62a7b4", 
+  "#4a90b2", 
+  "#357ca1",
+  "#2b6f94", 
+  "#1f5c7f"  
 ];
 
 export default function Heatmap() {
